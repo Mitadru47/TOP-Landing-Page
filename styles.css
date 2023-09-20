@@ -1,0 +1,47 @@
+html{
+    border: 2px solid green;
+}
+
+body{
+    border: 2px solid purple;
+}
+
+.flex-container{
+
+    display: flex;
+    border: 2px solid red;
+
+    margin: 2px;
+    height: 100vh;
+
+    flex-direction: column;
+}
+
+.flex-container div{
+
+    border: 1px solid brown;
+
+    margin: 2px;
+    flex: 1 1 auto;
+}
+
+.sectionA{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionA div{
+
+    border: 1px solid blue;
+    flex: 1;
+}
+
+.nav-bar{
+    background-color: #9A3B3B;
+}
+
+.contentA{
+    background-color: #9A3B3B;
+    flex: 2;
+}
