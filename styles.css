@@ -12,7 +12,6 @@ body{
     border: 2px solid red;
 
     margin: 2px;
-    height: 100vh;
 
     flex-direction: column;
 }
@@ -29,19 +28,73 @@ body{
 
     display: flex;
     flex-direction: column;
+
+    background-color: #9A3B3B;
 }
 
 .sectionA div{
-
     border: 1px solid blue;
-    flex: 1;
 }
 
 .nav-bar{
-    background-color: #9A3B3B;
+    display: flex;
+}
+
+.nav-bar div{
+    
+    border: 1px solid orangered;
+    height: 20px;
+}
+
+.logo{
+    width: 45%;
 }
 
 .contentA{
-    background-color: #9A3B3B;
-    flex: 2;
+    display: flex;
+}
+
+.contentA div{
+    flex: 1;
+}
+
+.sideB img{
+
+    width: 500px;
+    height: 250px;
+}
+
+.sectionB{
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #F2ECBE;
+}
+
+#tiles{
+
+    display: flex;
+}
+
+#tiles img{
+
+    width: 100px;
+    height: 100px;
+}
+
+.sectionC{
+    background-color: #E2C799;
+}
+
+.sectionD{
+    background-color: #F2ECBE;
+}
+
+.signUpCard{
+    display: flex;
+}
+
+footer{
+    background-color: #C08261;
 }
