@@ -2,6 +2,8 @@ html{
     
     text-align: center;
     /* border: 2px solid green; */
+
+    font-family: 'Slabo 27px', serif;
 }
 
 body{
@@ -72,7 +74,7 @@ body{
     margin-left: 200px;
     margin-right: 200px;
 
-    padding: 20px 0;
+    padding-bottom: 100px;
 
     display: flex;
     gap: 10px;
@@ -96,10 +98,19 @@ body{
     font-size: 1.2rem;
 }
 
+.sideB{
+    text-align: end;
+}
+
 .sideB img{
 
     width: 500px;
     height: 250px;
+
+    padding: 5px;
+
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .sectionB{
@@ -134,6 +145,7 @@ body{
     height: 200px;
 
     border: 2px solid #9A3B3B;
+    border-radius: 5px;
 }
 
 .sectionC{
@@ -160,6 +172,7 @@ body{
 .signUpCard{
 
     border: 1px solid brown;
+    border-radius: 5px;
 
     margin-left: 25%;
     margin-right: 25%;
@@ -188,4 +201,29 @@ footer{
     background-color: #C08261;
 
     padding-top: 30px;
+}
+
+button{
+    
+    border: 0;
+    border: 1px solid black;
+
+    border-radius: 5px;
+    padding: 7.5px;
+
+    background-color: black;
+    color: white;
+
+    /* To define the speed of "hover" effect */
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #9A3B3B;
+}
+
+.signUpCard button:hover {
+
+    background-color: #F2ECBE;
+    color: black;
 }
